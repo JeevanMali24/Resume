@@ -1,0 +1,15 @@
+* {
+  margin: 12px;
+  padding: 5px;
+
+  background-color: rgb(169, 211, 227);
+}
+
+h3 {
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-left: 1000px;
+}
