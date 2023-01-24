@@ -1,15 +1,219 @@
+@import url();
 * {
-  margin: 12px;
-  padding: 5px;
-
-  background-color: rgb(169, 211, 227);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins" sans-serif;
 }
 
-h3 {
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(0 0 0 1);
+  margin: 50px;
+}
+
+/*...............................left_side..............................*/
+
+.container .left_side {
+  position: relative;
+  padding: 40px;
+  background: rgba(2, 35, 68, 0.97);
+}
+
+.profile_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgb(196, 180, 180);
+}
+
+.profile_text .imgbox {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_text h2 {
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+  font-weight: 200px;
+  line-height: 1.4em;
+}
+
+.profile_text h2 span {
+  font-size: 0.7em;
+  font-weight: 300;
+  color: rgb(194, 200, 205);
+}
+
+/*....contect....*/
+.contect_info {
+  margin-top: 40px;
+}
+.title {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contect_info ul {
+  position: relative;
+}
+.contect_info li {
+  position: relative;
+  list-style: none;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.contect_info .icon {
+  display: inline-block;
+  width: 20px;
+  font-size: 20px;
+  color: rgba(3, 3, 92, 0.996);
+}
+.contect_info ul li span {
+  color: aliceblue;
+  font-weight: 300;
+}
+
+/*....education....*/
+
+.education_info {
+  margin-top: 40px;
+}
+
+.education_info ul li {
+  color: aliceblue;
+  font-weight: 100;
+  list-style: none;
+}
+.education_info li {
+  margin-bottom: 15px;
+}
+.education_info h5 {
+  color: rgb(21, 36, 241);
+}
+
+/*....lang....*/
+
+.lang {
+  margin-top: 30px;
+}
+.lang ul li h4 {
+  color: aliceblue;
+  font-weight: 100;
+}
+.lang li {
+  list-style: none;
+}
+/*...............................right_side..............................*/
+
+.container .right_side {
+  position: relative;
+  padding: 40px;
+  background: white;
+}
+
+/*....summary....*/
+.summary {
+  padding: 40px;
+  border-bottom: 1px solid black;
+}
+
+.summary h3 {
+  text-transform: uppercase;
   color: blue;
-  text-decoration: underline;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.summary li {
+  list-style: none;
 }
 
-.footer p {
-  margin-left: 1000px;
+/*....skill....*/
+.skill {
+  padding: 40px;
+  border-bottom: 1px solid black;
+}
+
+.skill h3 {
+  text-transform: uppercase;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.skill li {
+  list-style: none;
+}
+
+/*...exp...*/
+.exp {
+  padding: 40px;
+  border-bottom: 1px solid black;
+}
+
+.exp h3 {
+  text-transform: uppercase;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.exp li {
+  list-style: none;
+}
+
+/*....project.....*/
+.poject {
+  padding: 40px;
+  border-bottom: 1px solid black;
+}
+
+.poject h3 {
+  text-transform: uppercase;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.poject li {
+  list-style: none;
+}
+
+/*....activity....*/
+
+.activity {
+  padding: 40px;
+  border-bottom: 1px solid black;
+}
+
+.activity h3 {
+  text-transform: uppercase;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.activity li {
+  list-style: none;
 }
